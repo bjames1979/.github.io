@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 
 
-* {
+/** {
 
 padding: 0;
-margin: 0;
+margin: 0;*/
 
 }
 
@@ -18,7 +18,7 @@ hr {
 	height: 2px;
 	background-color: #000;
 	width: auto;
-	margin: 1.5em auto;
+	margin: 2em auto;
 }
 
 body {
@@ -41,10 +41,11 @@ h1 h2 h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
 	text-transform: uppercase;
-	text-align: auto;
+	text-align: center;
     color: #222222;
     padding-bottom: 50px;
-    padding-left: 20px;
+    padding-top: 20px;
+    /*padding-left: 20px;*/
     
    
     
@@ -53,15 +54,26 @@ h1 h2 h3 {
 p {
     font-family: 'Crimson Text', serif;
 	color: #222222;
+	margin: 1em 0;
+	text-align: left;
 
 }
 
 
 img {
 
-width: 600px;
+width: auto;
+height: 300px;
+display: block;
+margin: 0 auto;
+padding: .5em;
 
 
+}
+
+section {
+
+	padding: 2em;
 }
 
 nav {
@@ -69,18 +81,27 @@ nav {
 	text-align: right;
 	font-size: 15px;
 	padding-top: 20px;
-	margin-right: 20px;
+	margin: 30px;
+
+
 
 }
 
 footer {
 
-	text-align: center;
 	font-size: 15px;
+	text-align: center;
 	background-color: #fff;
-	padding-bottom: 15px;
-	padding-top: 15px;
-	font-style: italic;
+	/*font-style: italic;*/
+	display: block;
+	padding: 1.5em;
+	max-width: 600px;
+	height: 100px;
+}
+
+#feet {
+
+	text-align: center;
 }
 
 li {
@@ -106,6 +127,14 @@ nav a {
 	margin-right: 10px;
 }
 
+.topimage {
+
+width: auto;
+height: 600px;
+display: block;
+margin: 0 auto;
+padding: .5em;
+}
 
 
 /*.backdrop {
